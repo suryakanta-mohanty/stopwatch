@@ -8,11 +8,11 @@
 </head>
 <body>
   <div class="stopwatch">
-    <h1>00:00:00</h1>
+    <h1 id="displayTime">00:00:00</h1>
     <div class="btns">
-      <img src="./image/stop.png" >
-      <img src="./image/start.png" >
-      <img src="./image/reset.png" >
+      <img src="./image/stop.png" onclick="watchStop()">
+      <img src="./image/start.png" onclick="watchStart()">
+      <img src="./image/reset.png" onclick="watchReset()">
     </div>
   </div>
 

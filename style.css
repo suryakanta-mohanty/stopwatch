@@ -20,7 +20,7 @@ body{
   text-align: center;
   padding: 40px 0;
   color: white;
-  margin: 200px auto 0;
+  margin: 130px auto 0;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -46,3 +46,8 @@ body{
 .btns img:nth-child(2){
   width: 80px;
 }
+
+.btns img:active{
+  opacity: 75%;
+}
+
